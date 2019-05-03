@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Screen Binge</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--For FontAwsome use -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- jquery -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Custom JS -->
+	<script type="text/javascript" src="js/custom-script.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hdr-logo" href="index.html"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav cstm-nav-menu">
+                    <li><a href="javascript:void(0);">News</a><b>-</b></li>
+                    <li><a href="javascript:void(0);">Reviews</a><b>-</b></li>
+                    <li><a href="javascript:void(0);">Coming Soon</a><b>-</b></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="javascript:void(0);">Ranking Category<span class="fa fa-angle-down cstm-nav-drp-dwn"></span></a><b>-</b>
+                      <ul class="dropdown-menu cstm-sub-nav" role="menu">
+                        <li><a href="#">Top Movies</a></li>
+                        <li><a href="#">Top TV Shows</a></li>
+                        <li><a href="#">Popular Movies</a></li>
+                        <li><a href="#">Popular Channels</a></li>
+                      </ul> 
+                    </li>
+                    <li><a href="javascript:void(0);">Trailers</a><b>-</b></li>
+                    <li><a href="javascript:void(0);">User Review</a><b>-</b></li>
+                    <li><a href="javascript:void(0);">Forum</a></li>
+                    
+                    <span class="hdr-social-icons">
+                    <li><a class="fa fa-facebook" href="javascript:void(0);">&nbsp;</a></li>
+                    <li><a class="fa fa-google-plus" href="javascript:void(0);">&nbsp;</a></li>
+                    <li><a class="fa fa-twitter" href="javascript:void(0);">&nbsp;</a></li>
+                    </span>
+                    <!--li><a class="fa fa-search" href="javascript:void(0);"></a></li-->
+                <li class="custom-nav-search">
+                    <a href="#" ><span class="fa fa-search"></span></a>
+                    <input class="" type="text" placeholder="Search">
+                </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+			<div class="hm-sec-top col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 top-movies-big">
+                    <div class="overlay-yellow">
+                    	<div class="top-movies-big-txt">
+                            <h1 class="text-uppercase">TOP MOVIES 2014</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
+                        </div>
+                        <span class="cmnt-count"><b class="fa fa-comment">&nbsp;</b>261 Comments</span>
+                    </div>
+                </div>
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 top-movies-small">
+                    <div class="overlay-blue">
+                    	<div class="top-movies-small-txt">
+                            <h2 class="text-uppercase">Top Shows 2014</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                        </div>
+                        <span class="cmnt-count"><b class="fa fa-comment">&nbsp;</b>1 Comment</span>
+                    </div>
+                </div>
+				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 top-movies-small">
+                    <div class="overlay-red">
+                    	<div class="top-movies-small-txt">
+                            <span class="play-icon-img"><!--i class="fa fa-play-circle-o fa-5x"></i--></span>
+                            <h2 class="text-uppercase">Avengers 2 Trailor Release</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                    	</div>
+                        <span class="cmnt-count"><b class="fa fa-comment">&nbsp;</b>61 Comments</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Section-header -->
+
+    <div class="container sec-ttl-cont">
+        <span class="sec-ttl text-uppercase">Trending Now</span>
+    </div>
+    <!-- /.container -->
+
+    <!--Section-header END -->
+ 
+    
+    <!-- Page Content -->
+    <div class="container">
+
+    <div id="carousel-example" class="carousel slide " data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">                    
+                    	<div class="trend-sub-box-wrap">
+                            <div class="trend-sub-box">
+                                <img src="img/trend-image.jpg" class="img-responsive" />
+                                <div class="trend-sub-box-txt">
+                                    <h3>Dawn of the Planet of the Apes</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo .</p>
+                                    <a class="trend-boxes-rating star-rating" data-rating="2.33">
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full" data-prev-rating-class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="trend-sub-box">
+                                <img src="img/trend-image.jpg" class="img-responsive" />
+                                <div class="trend-sub-box-txt">
+                                    <h3>Guardian of the Galaxy</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo .</p>
+                                    <a class="trend-boxes-rating star-rating" data-rating="2.33">
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full" data-prev-rating-class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="trend-sub-box">
+                                <img src="img/trend-image.jpg" class="img-responsive" />
+                                <div class="trend-sub-box-txt">
+                                    <h3>X-Men Days of Future Past</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo .</p>
+                                    <a class="trend-boxes-rating star-rating" data-rating="2.33">
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full" data-prev-rating-class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="trend-sub-box">
+                                <img src="img/trend-image.jpg" class="img-responsive" />
+                                <div class="trend-sub-box-txt">
+                                    <h3>How To Train Your Dragon</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo .</p>
+                                    <a class="trend-boxes-rating star-rating" data-rating="2.33">
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full" data-prev-rating-class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+           </div><!--Item end-->
+           
+				<div class="item ">
+                        <div class="trend-sub-box-wrap">
+                            <div class="trend-sub-box">
+                                <img src="img/trend-image-2.jpg" class="img-responsive" />
+                                <div class="trend-sub-box-txt">
+                                    <h3>Dawn of the Planet of the Apes</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo .</p>
+                                    <a class="trend-boxes-rating star-rating" data-rating="2.33">
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full" data-prev-rating-class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="trend-sub-box">
+                                <img src="img/trend-image-2.jpg" class="img-responsive" />
+                                <div class="trend-sub-box-txt">
+                                    <h3>Guardian of the Galaxy</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo .</p>
+                                    <a class="trend-boxes-rating star-rating" data-rating="2.33">
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full" data-prev-rating-class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="trend-sub-box">
+                                <img src="img/trend-image-2.jpg" class="img-responsive" />
+                                <div class="trend-sub-box-txt">
+                                    <h3>X-Men Days of Future Past</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo .</p>
+                                    <a class="trend-boxes-rating star-rating" data-rating="2.33">
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full" data-prev-rating-class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="trend-sub-box">
+                                <img src="img/trend-image-2.jpg" class="img-responsive" />
+                                <div class="trend-sub-box-txt">
+                                    <h3>How To Train Your Dragon</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo .</p>
+                                    <a class="trend-boxes-rating star-rating" data-rating="2.33">
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star" data-prev-rating-class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-full" data-prev-rating-class="fa fa-star-half-full"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o" data-prev-rating-class="fa fa-star-o"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+           </div><!--item-->
+		</div>
+	</div>        
+    
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Section-header -->
+
+    <div class="container sec-ttl-cont">
+        <span class="sec-ttl text-uppercase">Trailors</span>
+    </div>
+    <!-- /.container -->
+
+    <!--Section-header END -->
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row trailor-main">
+        
+			<div class="col-sm-9 col-xs-12 trailor-big">
+            	<img src="img/movie-img.jpg">
+                <div class="trailor-big-inr">
+                	<span class="play-btn-big"></span>
+                    <div class="trailor-big-caption">
+                    	<div class="trailor-big-caption-ttl"><b>Taken 3 -</b> <span>Trailer</span></div>
+						<span class="trailors-comment">261<b class="fa fa-comment">&nbsp;</b></span>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="col-sm-3 col-xs-4 trailor-thumb" style="border-bottom:1px solid;">
+            	<span class="thumb-play-btn">&nbsp;</span>
+                <span><b>Taken</b>- Trailer 2</span>
+            </div>
+			
+            <div class="col-sm-3 col-xs-4 trailor-thumb" style="border-bottom:1px solid;">
+            	<span class="thumb-play-btn">&nbsp;</span>
+                <span><b>Taken</b>- Trailer 2</span>
+            </div>
+			
+            <div class="col-sm-3 col-xs-4 trailor-thumb"  style="border-bottom:1px solid;">
+            	<span class="thumb-play-btn">&nbsp;</span>
+                <span><b>Taken</b>- Trailer 2</span>
+            </div>
+            
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+    
+    
+    <!-- Section-header -->
+
+    <div class="container sec-ttl-cont">
+        <span class="sec-ttl text-uppercase">Blog</span>
+    </div>
+    <!-- /.container -->
+
+    <!--Section-header END -->
+
+    
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+        
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 blog-main">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 blog-left">
+					<!--blog-left-wrap START-->	
+                	<div class="blog-left-wrap">
+                    	<div class="blog-thumb-img">
+                        	<img src="img/blog-thumb.jpg" />
+                        </div>
+						<div class="blog-short-dtl">
+                        	<b>Awards</b>
+                            <h3>The 87th Academy Award Nominations and Fun Facts </h3>
+                            <span>January 19, 2015 &nbsp;|&nbsp; by John Doe</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <div class="blog-comment">13<b class="fa fa-comment">&nbsp;</b></div>
+                        </div>
+                    </div><!--blog-left-wrap END-->
+                    
+					<!--blog-left-wrap START-->	
+                	<div class="blog-left-wrap">
+                    	<div class="blog-thumb-img">
+                        	<img src="img/blog-thumb.jpg" />
+                        </div>
+						<div class="blog-short-dtl">
+                        	<b>Awards</b>
+                            <h3>The 87th Academy Award Nominations and Fun Facts </h3>
+                            <span>January 19, 2015 &nbsp;|&nbsp; by John Doe</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <div class="blog-comment">13<b class="fa fa-comment">&nbsp;</b></div>
+                        </div>
+                    </div><!--blog-left-wrap END-->
+                    
+					<!--blog-left-wrap START-->	
+                	<div class="blog-left-wrap">
+                    	<div class="blog-thumb-img">
+                        	<img src="img/blog-thumb.jpg" />
+                        </div>
+						<div class="blog-short-dtl">
+                        	<b>Awards</b>
+                            <h3>The 87th Academy Award Nominations and Fun Facts </h3>
+                            <span>January 19, 2015 &nbsp;|&nbsp; by John Doe</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <div class="blog-comment">13<b class="fa fa-comment">&nbsp;</b></div>
+                        </div>
+                    </div><!--blog-left-wrap END-->
+                    
+					<!--blog-left-wrap START-->	
+                	<div class="blog-left-wrap">
+                    	<div class="blog-thumb-img">
+                        	<img src="img/blog-thumb.jpg" />
+                        </div>
+						<div class="blog-short-dtl">
+                        	<b>Awards</b>
+                            <h3>The 87th Academy Award Nominations and Fun Facts </h3>
+                            <span>January 19, 2015 &nbsp;|&nbsp; by John Doe</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <div class="blog-comment">13<b class="fa fa-comment">&nbsp;</b></div>
+                        </div>
+                    </div><!--blog-left-wrap END-->
+                    
+					<!--blog-left-wrap START-->	
+                	<div class="blog-left-wrap">
+                    	<div class="blog-thumb-img">
+                        	<img src="img/blog-thumb.jpg" />
+                        </div>
+						<div class="blog-short-dtl">
+                        	<b>Awards</b>
+                            <h3>The 87th Academy Award Nominations and Fun Facts </h3>
+                            <span>January 19, 2015 &nbsp;|&nbsp; by John Doe</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <div class="blog-comment">13<b class="fa fa-comment">&nbsp;</b></div>
+                        </div>
+                    </div><!--blog-left-wrap END-->
+                    
+					<!--blog-left-wrap START-->	
+                	<div class="blog-left-wrap">
+                    	<div class="blog-thumb-img">
+                        	<img src="img/blog-thumb.jpg" />
+                        </div>
+						<div class="blog-short-dtl">
+                        	<b>Awards</b>
+                            <h3>The 87th Academy Award Nominations and Fun Facts </h3>
+                            <span>January 19, 2015 &nbsp;|&nbsp; by John Doe</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                            <div class="blog-comment">13<b class="fa fa-comment">&nbsp;</b></div>
+                        </div>
+                    </div><!--blog-left-wrap END-->
+
+
+                    <div class="container show-more">
+            			<div class="show-more-bar text-right">
+                        	<a href="javascript:void(0);" class="text-uppercase">Show More <span class="fa fa-play">&nbsp;</span></a>
+                        </div>
+                    </div>
+                    <!-- /.container -->
+
+                    <div class="pagination-wrap">
+                      <ul class="pagination">
+                        <li><a href="#">Prev</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">Next</a></li>
+                      </ul>
+                    </div>
+                    
+                    
+                </div><!--blog-left END-->
+                
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 blog-right">
+                	<div class="blog-right-wrap">
+                        <div class="googel-ads-box">
+                            <i>Advertisement</i>
+                            <img src="img/ads.jpg" />
+                        </div><!--ads-box END-->
+                        
+                        <div class="side-sec">
+                        	<h4>Opening This Week</h4>
+                            <div class="side-sec-inr">
+                            	
+                                <div class="side-sec-row">
+                                    <span>Paddington</span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                            	<div class="side-sec-row">
+                                    <span>The Wedding Ringer</span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                            	<div class="side-sec-row">
+                                    <span>Blackhat</span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                            	<div class="side-sec-row">
+                                    <span>Still Alice</span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                            	<div class="side-sec-row">
+                                    <span>Spare Parts </span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                                
+                                <div class="container side-show-more">
+                                    <div class="side-show-more-bar text-right">
+                                        <a href="javascript:void(0);" class="text-uppercase">Show More <span class="fa fa-play">&nbsp;</span></a>
+                                    </div>
+                                </div>
+                                <!-- /.container -->
+                                
+                                <div class="get-tckt-btn-box">
+                                	<a href="javascript:void(0);" class="text-uppercase get-tckt-btn">Get Tickets & Showtimes</a>
+                                </div>
+                                
+                            </div><!--side-sec-inr END-->
+                            
+                            
+                        	<h4>Coming Soon</h4>
+                            <div class="side-sec-inr">
+                            	
+                                <div class="side-sec-row">
+                                    <span>Paddington</span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                            	<div class="side-sec-row">
+                                    <span>The Wedding Ringer</span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                            	<div class="side-sec-row">
+                                    <span>Blackhat</span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                            	<div class="side-sec-row">
+                                    <span>Still Alice</span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                            	<div class="side-sec-row">
+                                    <span>Spare Parts </span>
+                                    <a href="javascript:void(0);" class="text-uppercase">Get Ticket</a>
+                                </div>
+                                
+                                <div class="container side-show-more">
+                                    <div class="side-show-more-bar text-right">
+                                        <a href="javascript:void(0);" class="text-uppercase">Show More<span class="fa fa-play">&nbsp;</span></a>
+                                    </div>
+                                </div>
+                                <!-- /.container -->
+                                
+                            </div><!--side-sec-inr END-->
+                            
+                            
+                            
+                        </div><!--side-sec END-->
+                        
+                        
+                        
+                        
+                    </div><!--blog-right-wrap END-->
+                
+                </div><!--blog-right END-->
+            
+            </div>
+            
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                 
+                 <div class="col-lg-2 col-md-2 hidden-sm hidden-xs ftr-img-logo"></div>
+                 
+                 <div class="col-lg-4 col-md-4 col-sm-5 ftr-sbmt-box-main">
+               	 	<div class="ftr-logo"></div>
+                    <div class="input-group col-lg-8 ftr-sbmt-box">
+                        <input type="email" value="" placeholder="Enter your email address to subscriibe" name="EMAIL" class="email form-control">
+                        <span class="input-group-btn">
+                        <input type="submit" class="btn btn-info text-uppercase" value="Submit" name="Submit">
+                        </span>
+                    </div>   
+                 </div>
+                 
+                 <div class="col-lg-6 col-md-6 col-sm-7 ftr-nav-bar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="javascript:void(0);">Home</a></li>
+                        <li><a href="contact-about.html">About Us</a></li>
+                        <li><a href="javascript:void(0);">Features</a></li>
+                        <li><a href="javascript:void(0);">Channels</a></li>
+                        <li><a href="javascript:void(0);">Download</a></li>
+                        <li><a href="javascript:void(0);">Support</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                    <div class="col-xs-12 text-right ftr-cpyrt">
+                        Copyright &copy; 2015 ScreenBinge. All rights reserved.
+                    </div>     
+                 </div>            
+                 
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- Footer | Ends-->
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
